@@ -1,0 +1,16 @@
+{
+  "id": "bags-cashback-system",
+  "name": "Bags Cashback Rewards",
+  "description": "Automatically claim rewards from your trading fees on Bags.fm.",
+  "icon": "./vKnrMlnu_400x400.jpg",
+  "developer": {
+    "name": "YourGitHubName",
+    "website": "https://github.com/yourusername"
+  },
+  "categories": ["DeFi", "Rewards", "Trading"],
+  "entry_point": "https://your-dapp-url.com",
+  "permissions": [
+    "solana:mainnet:signTransaction",
+    "bags:api:read_stats"
+  ]
+}
